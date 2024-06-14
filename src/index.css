@@ -1,0 +1,37 @@
+/* Tailwindcss */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fonts Google */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* Variables */
+:root {
+    --primary: #00AFFF;
+    --secondary: #374151;
+    --paragraph: #9CA3AF;
+    --main: #FFFFFF;
+    --bg: #111827;
+    --font-family-base: 'Inter', sans-serif;
+}
+
+/* Global Style */
+
+body {
+    background: var(--bg);
+    color: var(--main);
+    font-family: var(--font-family-base);
+}
+
+main {
+    transition: all;
+    /* border: 2px solid red */
+}
+
+section {
+    transition: all;
+    /* border: 2px solid blue */
+}
+
+/* Base Style */

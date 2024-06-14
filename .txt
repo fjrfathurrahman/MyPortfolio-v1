@@ -1,0 +1,41 @@
+#Navigation
+FjrFthrrhmn.
+
+// Menu
+Home - About - Projects
+
+#Hero
+Hello, I'm Fajar Fathurrahman.
+
+I enjoy building and designing for the web.
+
+Tell Me More - btn
+
+#Projects
+Here are my favorite projects. - tittle
+
+// Cards - 3
+
+View All - btn
+
+#Coments
+Why people love my works. - tittle
+
+// Comnets - 6
+
+#CTA
+Interested in Working Together ?
+
+Get It Touch - btn
+
+#Footer
+PAGES
+Home - About - Projects
+
+SOSIAL
+Gmail - Github - Linkedin
+
+#Copyright 
+MADE WITH React Tailwind
+
+Copyright 2024 FjrFthrrhmn. All Rights Reserved
