@@ -1,10 +1,12 @@
+/* Fonts Google */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+
 /* Tailwindcss */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-/* Fonts Google */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 /* Variables */
 :root {
@@ -35,3 +37,40 @@ section {
 }
 
 /* Base Style */
+.duration500 {
+    @apply transition-all duration-500 hover:duration-500
+}
+
+/* .heroELememt {
+    animation: scaleDownIn 1.5s cubic-bezier(0.87, 0, 0.13, 1);
+}
+
+.heroELememt .sqD {
+    animation: float 2s infinite ease-in-out;
+}
+
+@keyframes scaleDownIn {
+    from {
+        opacity: 0;
+        transform: scale(4) translateY(0px);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0px);
+    }
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(8px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+} */
