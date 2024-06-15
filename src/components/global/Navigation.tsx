@@ -3,15 +3,7 @@ import ToggleNavigationMobile from "./NavigationMobile"
 import React from "react"
 import { MenuContext } from "../../hooks/MenuContext";
 import useWindowSize from "../../hooks/useWindowSize";
-
-const dataNavigation = {
-    Logo: 'FjrFthrrhmn.',
-    Menu: [
-        { path: '/', tittle: 'Home' },
-        { path: '/about', tittle: 'About' },
-        { path: '/projects', tittle: 'Projects' },
-    ]
-}
+import { dataNavigation } from "../../data/global";
 
 export default function Navigation() {
     const { isOpenMenu, setIsOpenMenu } = React.useContext(MenuContext)

@@ -36,6 +36,11 @@ section {
     /* border: 2px solid blue */
 }
 
+div {
+    transition: all;
+    /* border: 2px solid lightskyblue */
+}
+
 /* Base Style */
 .duration500 {
     @apply transition-all duration-500 hover:duration-500

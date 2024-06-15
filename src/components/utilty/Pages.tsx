@@ -1,5 +1,6 @@
 import React from "react";
 import Navigation from "../global/Navigation";
+import Footer from "../global/Footer";
 
 
 export default function Page({ children }: { children: React.ReactNode }) {
@@ -9,6 +10,7 @@ export default function Page({ children }: { children: React.ReactNode }) {
             <div className="flex flex-col items-center justify-center">
                 <Navigation />
                 {children}
+                <Footer/>
             </div>
         </main>
     )
