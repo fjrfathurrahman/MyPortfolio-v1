@@ -13,7 +13,9 @@ export default function Navigation() {
         if (width >= 640) {
             return setIsOpenMenu(false);
         }
-    }, [width])
+
+        {isOpenMenu ? document.body.style.overflowY = 'hidden' : document.body.style.overflowY = 'auto'}
+    }, [isOpenMenu, width])
 
     return (
         <>
@@ -27,10 +29,10 @@ export default function Navigation() {
             </nav>
             {/* Menu Navigation Mobile */}
             {isOpenMenu &&
-                <div className="Modal fixed w-full h-full bottom-0 left-0 right-0 bg-black/25 backdrop-blur-[2px]" style={{ zIndex: '99' }}>
+                <div className="Modal fixed w-full h-full bottom-0 left-0 right-0 bg-black/50 backdrop-blur-[2px]" style={{ zIndex: '99' }}>
                     <div className="Menu h-full flex flex-col justify-center items-center gap-3 font-semibold text-xl">
                         {dataNavigation.Menu.map((item: any) => (
-                            <NavLink key={item.tittle} to={item.path} className={({ isActive }) => isActive ? "text-primary" : "text-gray-500 hover:text-white duration500"}>
+                            <NavLink key={item.tittle} to={item.path} className={({ isActive }) => isActive ? "text-primary" : "text-paragraph hover:text-white duration500"}>
                                 {item.tittle}
                             </NavLink>
                         ))}
@@ -56,7 +58,7 @@ const MenuNavigation = () => {
         <div className="hidden sm:block">
             <div className="Menu flex items-center gap-6 font-semibold text-base md:text-lg">
                 {dataNavigation.Menu.map((item: any) => (
-                    <NavLink key={item.tittle} to={item.path} className={({ isActive }) => isActive ? "text-primary border-b-2 border-primary" : "text-gray-500 hover:text-white duration500"}>
+                    <NavLink key={item.tittle} to={item.path} className={({ isActive }) => isActive ? "text-primary border-b-2 border-primary" : "text-paragraph hover:text-white duration500"}>
                         {item.tittle}
                     </NavLink>
                 ))}
