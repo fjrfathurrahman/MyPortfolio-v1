@@ -1,6 +1,6 @@
-export default function Section({ children, maxWidth = '1280px', minHeight = '700px', className }: TypeProps) {
+export default function Section({ children, maxWidth = '1280px', height = '700px', className }: TypeProps) {
     return (
-        <section className={`${className} w-full relative top-0 left-0 right-0 px-3`} style={{ maxWidth: maxWidth, minHeight: minHeight }}>
+        <section className={`${className} w-full relative top-0 left-0 right-0 px-3`} style={{ maxWidth: maxWidth, height: height, zIndex: '999' }}>
             {children}
         </section>
     )
@@ -9,6 +9,6 @@ export default function Section({ children, maxWidth = '1280px', minHeight = '70
 type TypeProps = {
     children: React.ReactNode,
     maxWidth?: string,
-    minHeight?: string,
+    height?: string,
     className?: string
 }

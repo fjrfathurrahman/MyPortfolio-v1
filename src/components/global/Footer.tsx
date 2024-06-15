@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+ import { Link } from "react-router-dom";
 import { dataFooter, dataNavigation } from "../../data/global";
 import Section from "../utilty/Section";
 import React from "react";
@@ -24,13 +24,13 @@ export default function Footer() {
     });
 
     return (
-        <Section minHeight="max-content" className="border-t border-white/15 ">
-            <div className="w-full h-full flex flex-row items-start justify-center py-12">
+        <Section height="max-content" className="border-t border-white/15 ">
+            <div className="w-full h-full flex flex-row items-start justify-center mb-3 py-6">
                 <Component tittle="PAGES" array={dataNavigation.Menu} />
                 <Component tittle="SOSIAL" array={dataFooter.Sosial} />
                 <DesignSosialMedia className="w-1/2 hidden sm:flex" array={dataFooter.DesignSosialMedia} />
             </div>
-            <DesignSosialMedia className="w-full mb-3 flex sm:hidden" array={dataFooter.DesignSosialMedia} />
+            <DesignSosialMedia className="w-full py-3 border-t border-white/15 flex sm:hidden" array={dataFooter.DesignSosialMedia} />
             <Copyright />
         </Section>
     )
