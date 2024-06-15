@@ -15,7 +15,7 @@
     --paragraph: #9CA3AF;
     --main: #FFFFFF;
     --bg: #111827;
-    --font-family-base: 'Inter', sans-serif;
+    --font-family-base: Inter, sans-serif;
 }
 
 /* Global Style */
@@ -39,6 +39,24 @@ section {
 div {
     transition: all;
     /* border: 2px solid lightskyblue */
+}
+
+body::-webkit-scrollbar {
+    width: 9px;
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--bg);
+    border-radius: 12px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--secondary);
+    border-radius: 12px;
+}
+
+body::-webkit-scrollbar-button {
+    display: none;
 }
 
 /* Base Style */
