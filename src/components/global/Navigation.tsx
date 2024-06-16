@@ -19,7 +19,7 @@ export default function Navigation() {
 
     return (
         <>
-            <nav className="w-full relative top-0 left-0 right-0 px-3 py-6 border-b border-white/15" style={{ maxWidth: '1280px', zIndex: '999' }}>
+            <nav className="w-full relative top-0 left-0 right-0 py-6 border-b border-white/15" style={{ maxWidth: '1280px', zIndex: '999' }}>
                 <div className="w-full flex justify-between items-center">
                     <Logo />
                     <MenuNavigation />

@@ -7,7 +7,7 @@ export default function Hero() {
     const headline = <h1 className="text-4xl md:text-5xl xl:text-6xl font-[900] cursor-pointer">I enjoy <span className="text-primary">building</span> and <br className="hidden sm:block" /> <span className="text-primary">designing</span> for the web.</h1>
     
     return (
-        <Section>
+        <Section className="heroELememt overflow-hidden">
             <div className="w-full h-full flex flex-col justify-center items-center text-center">
                 {hello}
                 {headline}

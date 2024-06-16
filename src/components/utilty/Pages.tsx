@@ -7,7 +7,7 @@ export default function Page({ children }: { children: React.ReactNode }) {
 
     return (
         <main className="relative top-0 left-0 right-0 z-[9999]">
-            <div className="flex flex-col items-center justify-center">
+            <div className="flex flex-col items-center justify-center px-5">
                 <Navigation />
                 {children}
                 <Footer/>

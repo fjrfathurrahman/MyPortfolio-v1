@@ -18,6 +18,10 @@
     --font-family-base: Inter, sans-serif;
 }
 
+
+/* -------------------------------------------------------------------------------------------------------------  */
+
+
 /* Global Style */
 
 body {
@@ -28,12 +32,13 @@ body {
 
 main {
     transition: all;
-    /* border: 2px solid red */
+    /* border: 2px solid red; */
+    overflow-x: hidden;
 }
 
 section {
     transition: all;
-    /* border: 2px solid blue */
+    /* border: 2px solid blue; */
 }
 
 div {
@@ -59,12 +64,16 @@ body::-webkit-scrollbar-button {
     display: none;
 }
 
+
+/* -------------------------------------------------------------------------------------------------------------  */
+
+
 /* Base Style */
 .duration500 {
     @apply transition-all duration-500 hover:duration-500
 }
 
-/* .heroELememt {
+.heroELememt {
     animation: scaleDownIn 1.5s cubic-bezier(0.87, 0, 0.13, 1);
 }
 
@@ -75,7 +84,7 @@ body::-webkit-scrollbar-button {
 @keyframes scaleDownIn {
     from {
         opacity: 0;
-        transform: scale(4) translateY(0px);
+        transform: scale(2) translateY(0px);
     }
 
     to {
@@ -96,4 +105,4 @@ body::-webkit-scrollbar-button {
     100% {
         transform: translateY(0px);
     }
-} */
+}
