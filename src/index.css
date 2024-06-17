@@ -23,6 +23,11 @@
 
 
 /* Global Style */
+* {
+    cursor: none;
+}
+
+
 
 body {
     background: var(--bg);
@@ -105,4 +110,13 @@ body::-webkit-scrollbar-button {
     100% {
         transform: translateY(0px);
     }
+}
+
+.cursor-dot {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    transition: transform 1s ease-out, opacity 1s ease-out;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 9999;
 }

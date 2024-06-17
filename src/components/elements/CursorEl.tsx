@@ -1,22 +1,22 @@
 import React from "react";
 
 export default function CursorEl() {
-    React.useEffect(() => {
-        const cursor = document.querySelector('.custom-cursor') as HTMLElement;
+    const [position, setPosition] = React.useState({ x: 0, y: 0 });
 
-        const moveCursor = (e: MouseEvent) => {
-            cursor.style.left = `${e.pageX}px`;
-            cursor.style.top = `${e.pageY}px`;
+    React.useEffect(() => {
+        const onMouseMove = (e: MouseEvent) => {
+            setPosition({ x: e.clientX, y: e.clientY });
         };
 
-        document.addEventListener('mousemove', moveCursor);
+        document.addEventListener("mousemove", onMouseMove);
 
         return () => {
-            document.removeEventListener('mousemove', moveCursor);
+            document.removeEventListener("mousemove", onMouseMove);
         };
     }, []);
 
     return (
-        <div className="custom-cursor"></div>
-    )
-} 
+        <div className="cursor-dot w-3 h-3 bg-white/50" style={{ left: `${position.x}px`, top: `${position.y}px` }}>
+        </div>
+    );
+}
