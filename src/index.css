@@ -27,8 +27,6 @@
     cursor: none;
 }
 
-
-
 body {
     background: var(--bg);
     color: var(--main);
@@ -119,4 +117,22 @@ body::-webkit-scrollbar-button {
     border-radius: 50%;
     pointer-events: none;
     z-index: 9999;
+}
+
+.animateX {
+    animation: animateX 700ms ease-in-out infinite 
+}
+
+@keyframes animateX {
+    0% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateX(3px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
 }

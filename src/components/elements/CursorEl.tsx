@@ -16,7 +16,7 @@ export default function CursorEl() {
     }, []);
 
     return (
-        <div className="cursor-dot w-3 h-3 bg-white/50" style={{ left: `${position.x}px`, top: `${position.y}px` }}>
+        <div className="cursor-dot w-3 h-3 bg-white/50 hidden xl:block" style={{ left: `${position.x}px`, top: `${position.y}px` }}>
         </div>
     );
 }
