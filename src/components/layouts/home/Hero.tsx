@@ -4,7 +4,7 @@ import ButtonEl from "../../elements/ButtonEl";
 
 export default function Hero() {
     const hello = <h3 className="text-sm sm:text-base md:text-lg xl:text-xl mb-1">Hello, I'm Fajar Fathurrahman.</h3>
-    const headline = <h1 className="text-4xl md:text-5xl xl:text-6xl font-[900]">I enjoy <span className="text-primary">building</span> and <br className="hidden sm:block" /> <span className="text-primary">designing</span> for the web.</h1>
+    const headline = <h1 className="text-4xl md:text-5xl xl:text-7xl font-[900]">I enjoy <span className="text-primary">building</span> and <br className="hidden sm:block" /> <span className="text-primary">designing</span> for the web.</h1>
     
     return (
         <Section className="heroELememt overflow-hidden">
