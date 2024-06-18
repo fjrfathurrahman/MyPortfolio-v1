@@ -24,7 +24,7 @@
 
 /* Global Style */
 * {
-    cursor: none;
+    /* @apply cursor-none  */
 }
 
 body {

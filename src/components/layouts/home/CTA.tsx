@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 export default function CTA() {
     return (
-        <Section className="pt-20" height="max-content">
+        <Section className="mt-36" height="max-content">
             <div className="mb-12 lg:mb-0 relative flex flex-col items-center justify-center">
                 <img src={imgTittle} className="w-1/2 sm:w-2/5 md:w-1/3 lg:w-1/4 mb-6" />
                 <h1 className="w-full text-wrap text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-center tracking-tight sm:tracking-wide">Interested in <br /> Working Together?</h1>

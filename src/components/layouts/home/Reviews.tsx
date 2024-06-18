@@ -4,7 +4,7 @@ import Section from "../../utilty/Section";
 
 export default function Reviews() {
     return (
-        <Section className="pb-12" height="max-content">
+        <Section className="mt-36" height="max-content">
             <TittleEl>
                 Why People Love <br className="md:hidden block" /> My Work.
             </TittleEl>

@@ -8,7 +8,7 @@ export default function ButtonEl({ children, className, onClick = () => console.
     const classNameVariant = style[variant]
 
     return (
-        <button onClick={onClick} type={type} className={`${className} ${classNameVariant} duration500  cursor-none`}>
+        <button onClick={onClick} type={type} className={`${className} ${classNameVariant} duration500 `}>
             {children}
         </button>
     )
