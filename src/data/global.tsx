@@ -1,6 +1,3 @@
-import imgIconReact from "../assets/global/imgIconReact.png";
-import imgIconTailwindcss from "../assets/global/imgIconTailwind.png";
-
 const dataNavigation: any = {
     Logo: 'FjrFthrrhmn.',
     Menu: [
@@ -9,6 +6,9 @@ const dataNavigation: any = {
         { path: '/projects', tittle: 'Projects' },
     ]
 }
+
+import imgIconReact from "../assets/global/imgIconReact.png";
+import imgIconTailwindcss from "../assets/global/imgIconTailwind.png";
 
 const dataFooter: any = {
     Made: [imgIconReact, imgIconTailwindcss],
@@ -73,4 +73,39 @@ const dataReview: any = {
     ]
 }
 
-export { dataNavigation, dataFooter, dataReview }
+import imgProject1 from '../assets/projects/imgProject-1.jpg'
+import imgProject2 from '../assets/projects/imgProject-2.jpg'
+
+const dataProjects: any = {
+    Projects: [
+        {
+            tittle: 'Leading Page ',
+            img: imgProject1,
+            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus a nemo natus?',
+            url: {
+                urlGithub: '',
+                urlWebsite: ''
+            },
+        },
+        {
+            tittle: 'Leading Page ',
+            img: imgProject2,
+            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas nam repellendus reprehenderit ea fugiat incidunt eligendi',
+            url: {
+                urlGithub: '',
+                urlWebsite: ''
+            },
+        },
+        {
+            tittle: 'Leading Page ',
+            img: imgProject1,
+            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam reiciendis eveniet aperiam exercitationem perspiciatis alias doloribus.',
+            url: {
+                urlGithub: '',
+                urlWebsite: ''
+            },
+        },
+    ]
+}
+
+export { dataNavigation, dataProjects, dataReview, dataFooter }

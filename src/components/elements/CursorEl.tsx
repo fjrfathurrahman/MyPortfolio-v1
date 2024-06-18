@@ -3,7 +3,6 @@ import useWindowSize from "../../hooks/useWindowSize";
 
 export default function CursorEl() {
     const [position, setPosition] = React.useState({ x: 0, y: 0 });
-    // const [hidden, isHidden] = React.useState(Boolean);
     const { width } = useWindowSize();
 
     React.useEffect(() => {

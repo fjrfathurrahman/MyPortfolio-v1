@@ -23,9 +23,6 @@
 
 
 /* Global Style */
-* {
-    /* @apply cursor-none  */
-}
 
 body {
     background: var(--bg);
