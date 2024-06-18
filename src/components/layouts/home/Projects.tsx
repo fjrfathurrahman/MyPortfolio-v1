@@ -9,20 +9,21 @@ export default function Projects() {
         <Section height="max-content">
             <TittleEl>Here Are My <br className="block lg:hidden" /> Favorite Projects.</TittleEl>
 
-            <div className="parent sm:px-9 xl:px-0 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
-                {dataProjects.Projects.map((item: any, index: number) => (
-                    <Project key={index}
-                        img={item.img}
-                        tittle={item.tittle}
-                        description={item.description}
-                        urlGithub={item.url.urlGithub}
-                        urlWebsite={item.url.urlWebsite} />
-                ))}
+            <div className="parent sm:px-9 xl:px-0">
+                <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
+                    {dataProjects.Projects.map((item: any, index: number) => (
+                        <Project key={index}
+                            img={item.img}
+                            tittle={item.tittle}
+                            description={item.description}
+                            urlGithub={item.url.urlGithub}
+                            urlWebsite={item.url.urlWebsite} />
+                    ))}
+                </div>
+                <ButtonEl type="button" variant="secondary" className="w-full">
+                    <Link to={"/projects"}>See More</Link>
+                </ButtonEl>
             </div>
-
-            <ButtonEl type="button" variant="secondary" className="w-full">
-                <Link to={"/projects"}>See More</Link>
-            </ButtonEl>
         </Section>
     )
 }
