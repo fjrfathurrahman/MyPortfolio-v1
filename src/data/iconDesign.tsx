@@ -2,6 +2,8 @@ export const iconDesign : any = {
     iconCode: 'code',
     iconQR: 'qrcode',
     iconCodeBranch: 'code-branch',
+    iconMerge: 'code-merge',
+    iconFork: 'code-fork',
     iconFolder: 'folder-open',
     iconFile: 'file',
     iconUser: 'user',
@@ -10,5 +12,7 @@ export const iconDesign : any = {
     iconGhost: 'ghost',
     iconHashtag: 'hashtag',
     iconShapes: 'shapes',
-    iconComputer: 'computer'
+    iconComputer: 'computer',
+    iconGamepad: 'gamepad',
+    iconPuzzle: 'puzzle-piece',
 } 

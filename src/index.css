@@ -1,7 +1,7 @@
 /* Fonts Google */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap');
 
 /* Tailwindcss */
 @tailwind base;
@@ -14,7 +14,6 @@
     --secondary: #374151;
     --paragraph: #9CA3AF;
     --main: #FFFFFF;
-    /* --bg: #111827; */
     --bg: #001022;
     --font-family-base: Inter, sans-serif;
 }
@@ -83,6 +82,7 @@ p {
 
 .heroELememt .sqD {
     animation: float 2s infinite ease-in-out;
+    width: 100;
 }
 
 @keyframes scaleDownIn {
@@ -103,7 +103,7 @@ p {
     }
 
     50% {
-        transform: translateY(8px);
+        transform: translateY(12px);
     }
 
     100% {

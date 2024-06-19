@@ -33,7 +33,7 @@ const Project = ({ img, tittle, description, urlGithub, urlWebsite }: { img: str
         <div className="project w-full p-3 xl:p-5 border-2 border-white/15 rounded-xl hover:border-primary/70 hover:scale-95 bg-bg duration500">
             <img src={img} className="rounded-xl w-full" />
             <div className="mt-5 mb-2 flex justify-between items-center">
-                <h1 className="font-medium text-base md:text-lg cursor-pointer">{tittle}</h1>
+                <h1 className="font-semibold text-base md:text-lg cursor-pointer">{tittle}</h1>
                 <div className="flex gap-3 text-sm text-primary">
                     <Link to={urlGithub}><i className="fa-brands fa-github"></i></Link>
                     <Link to={urlWebsite}><i className="fa-solid fa-arrow-up-right-from-square"></i></Link>

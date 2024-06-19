@@ -15,7 +15,7 @@ export default {
       },
       fontFamily: {
         'Tiny5': 'Tiny5, sans-serif',
-        'Rowdies': 'Rowdies, sans-serif',
+        'Playwrite': 'Playwrite NG Modern, cursive',
       }
     },
   },

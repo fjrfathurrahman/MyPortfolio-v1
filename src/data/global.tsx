@@ -86,6 +86,7 @@ const dataReview: any = {
 
 import imgProject1 from '../assets/projects/imgProject-1.jpg'
 import imgProject2 from '../assets/projects/imgProject-2.jpg'
+import imgProject3 from '../assets/projects/imgProject-3.jpg'
 const dataProjects: any = {
     Projects: [
         {
@@ -98,7 +99,7 @@ const dataProjects: any = {
             },
         },
         {
-            tittle: 'Leading Page ',
+            tittle: 'Portfolio V1',
             img: imgProject2,
             description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas nam repellendus reprehenderit ea fugiat incidunt eligendi',
             url: {
@@ -107,8 +108,8 @@ const dataProjects: any = {
             },
         },
         {
-            tittle: 'Leading Page ',
-            img: imgProject1,
+            tittle: 'E-Commerce',
+            img: imgProject3,
             description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam reiciendis eveniet aperiam exercitationem perspiciatis alias doloribus.',
             url: {
                 urlGithub: '',
