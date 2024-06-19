@@ -11,7 +11,7 @@ export default {
         secondary: '#374151',
         paragraph: '#9CA3AF',
         main: '#FFFFFF',
-        bg: '#111827',
+        bg: '#001022',
       },
       fontFamily: {
         'Tiny5': 'Tiny5, sans-serif',

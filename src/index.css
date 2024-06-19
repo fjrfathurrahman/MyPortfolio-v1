@@ -14,7 +14,8 @@
     --secondary: #374151;
     --paragraph: #9CA3AF;
     --main: #FFFFFF;
-    --bg: #111827;
+    /* --bg: #111827; */
+    --bg: #001022;
     --font-family-base: Inter, sans-serif;
 }
 
@@ -64,6 +65,9 @@ body::-webkit-scrollbar-button {
     display: none;
 }
 
+p {
+    @apply antialiased
+}
 
 /* -------------------------------------------------------------------------------------------------------------  */
 

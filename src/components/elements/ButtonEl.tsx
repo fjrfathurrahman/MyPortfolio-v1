@@ -4,7 +4,7 @@ const style = {
     none: ""
 }
 
-export default function ButtonEl({ children, className, onClick = () => console.log("clicked"), type, variant } : TypeProps) {
+export default function ButtonEl({ children, className, onClick = () => console.log("clicked"), type, variant = "none" } : TypeProps) {
     const classNameVariant = style[variant]
 
     return (
@@ -19,5 +19,5 @@ type TypeProps = {
     className?: string,
     onClick?: () => void,
     type: "button" | "submit" | "reset",
-    variant: "primary" | "secondary" | "none"
+    variant?: "primary" | "secondary" | "none"
 }

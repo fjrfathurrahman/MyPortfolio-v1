@@ -7,9 +7,12 @@ const dataNavigation: any = {
     ]
 }
 
+
+// ------------------------------------------------------------------------------------------------------------------------ //
+
+
 import imgIconReact from "../assets/global/imgIconReact.png";
 import imgIconTailwindcss from "../assets/global/imgIconTailwind.png";
-
 const dataFooter: any = {
     Made: [imgIconReact, imgIconTailwindcss],
     Sosial: [
@@ -37,6 +40,10 @@ const dataFooter: any = {
         { icon: 'blogger-b' },
     ]
 }
+
+
+// ------------------------------------------------------------------------------------------------------------------------ //
+
 
 const dataReview: any = {
     Reviews: [
@@ -73,9 +80,12 @@ const dataReview: any = {
     ]
 }
 
+
+// ------------------------------------------------------------------------------------------------------------------------ //
+
+
 import imgProject1 from '../assets/projects/imgProject-1.jpg'
 import imgProject2 from '../assets/projects/imgProject-2.jpg'
-
 const dataProjects: any = {
     Projects: [
         {
@@ -108,4 +118,69 @@ const dataProjects: any = {
     ]
 }
 
-export { dataNavigation, dataProjects, dataReview, dataFooter }
+
+// ------------------------------------------------------------------------------------------------------------------------ //
+
+
+import iconHtml from '../assets/about/iconHTML.png'
+import iconCss from '../assets/about/iconCSS.png'
+import iconJs from '../assets/about/iconJavascript.png'
+import iconReact from '../assets/about/iconReact.png'
+import iconTypescript from '../assets/about/iconTypescript.png'
+import iconTailwind from '../assets/about/iconTailwind.png'
+import iconSass from '../assets/about/iconSass.png' 
+import iconFirebase from '../assets/about/iconFirebase.png'
+import iconGit from '../assets/about/iconGit.png'
+import iconNodejs from '../assets/about/iconNodejs.png'
+import iconFigma from '../assets/about/iconFigma.png'
+
+const iconsSkills : any = [
+    {
+        tittle: 'HTML',
+        icon: iconHtml
+    },
+    {
+        tittle: 'CSS',
+        icon: iconCss
+    },
+    {
+        tittle: 'Javascript',
+        icon: iconJs
+    },
+    {
+        tittle: 'React',
+        icon: iconReact
+    },
+    {
+        tittle: 'Typescript',
+        icon: iconTypescript
+    },
+    {
+        tittle: 'Tailwind',
+        icon: iconTailwind
+    },
+    {
+        tittle: 'Sass',
+        icon: iconSass
+    },
+    {
+        tittle: 'Firebase',
+        icon: iconFirebase
+    },
+    {
+        tittle: 'Git',
+        icon: iconGit
+    },
+    {
+        tittle: 'Nodejs',
+        icon: iconNodejs
+    },
+    {
+        tittle: 'Figma',
+        icon: iconFigma
+    }
+]
+
+
+
+export { dataNavigation, dataProjects, dataReview, iconsSkills, dataFooter }

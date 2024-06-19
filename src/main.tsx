@@ -5,9 +5,11 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import HomePage from './pages/HomePage'
 import { MenuContextProvider } from './hooks/MenuContext'
 import ErrorPage from './components/layouts/ErrorPage'
+import AboutPage from './pages/AboutPage'
 
 const RouterPage = createBrowserRouter([
   { path: '/', element: <HomePage /> },
+  { path: '/about', element: <AboutPage /> },
   { path: '/*', element: <ErrorPage/> }
 ])
 
