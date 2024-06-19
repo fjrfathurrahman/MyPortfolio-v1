@@ -18,6 +18,15 @@ export default function AboutMe() {
                 <div className="top-72 right-44 -rotate-12">
                     <i className={`fa-solid fa-${iconDesign.iconFile} text-8xl text-white/5`}></i>
                 </div>
+                <div className="bottom-6 right-32 -rotate-12">
+                    <i className={`fa-solid fa-${iconDesign.iconQR} text-9xl text-white/5`}></i>
+                </div>
+                <div className="bottom-1/3 left-16 rotate-12">
+                    <i className={`fa-solid fa-${iconDesign.iconFolder} text-8xl text-white/5`}></i>
+                </div>
+                <div className="bottom-24 left-1/3 rotate-12">
+                    <i className={`fa-solid fa-${iconDesign.iconComputer} text-8xl text-white/5`}></i>
+                </div>
             </div>
         </Section>
     )
@@ -37,10 +46,10 @@ const ComponentAbout = () => {
         <div className="space-y-3">
             <Tittle text="About Me" icon={`fa-solid fa-${iconDesign.iconUser}`} />
             <p className="text-sm md:text-base text-pretty text-paragraph leading-relaxed tracking-wide">
-                Hello, I am <span className="underline-offset-2 underline decoration-indigo-500 font-medium text-white">Fajar Fathurrahman</span>, born in <span className="underline-offset-2 underline decoration-sky-500 font-medium text-white">Bandung, September 25, 2006</span>. I am a vocational student who wants to become a Front-End Developer and Web Designer. With high passion and dedication to learn, I strive to create visually appealing and user-friendly websites.
+                Hello, I am <span className="underline-offset-2 underline decoration-indigo-500 font-bold text-white">Fajar Fathurrahman</span>, born in <span className="underline-offset-2 underline decoration-sky-500 font-bold text-white">Bandung, September 25, 2006</span>. I am a vocational student who wants to become a Front-End Developer and Web Designer. With high passion and dedication to learn, I strive to create visually appealing and user-friendly websites.
             </p>
             <p className="text-sm md:text-base text-pretty text-paragraph leading-relaxed tracking-wide">
-                My interest in web development and design started to grow when I entered vocational school. I started learning about <span className="text-red-600 font-medium">HTML</span>, <span className="text-sky-400 font-medium">CSS</span>, and <span className="text-yellow-400 font-medium">JavaScript</span>, and became more interested when I saw how code could be transformed into visually appealing displays. As time went on, I started to explore further into web design. I learned to use design tools like Figma to create wireframes and prototypes. In addition, I started to understand the importance of responsive design and how to make sure websites look good on various devices, from desktops to smartphones. Currently, I have started some more complex personal projects. I've been working with frameworks like React.js to create interactive web applications. I've also learned about web performance optimization, ensuring that the sites I create are not only visually appealing but also fast and efficient.
+                My interest in web development and design started to grow when I entered vocational school. I started learning about <span className="text-orange-700 font-bold">HTML</span>, <span className="text-sky-300 font-bold">CSS</span>, and <span className="text-yellow-300 font-bold">JavaScript</span>, and became more interested when I saw how code could be transformed into visually appealing displays. As time went on, I started to explore further into web design. I learned to use design tools like Figma to create wireframes and prototypes. In addition, I started to understand the importance of responsive design and how to make sure websites look good on various devices, from desktops to smartphones. Currently, I have started some more complex personal projects. I've been working with frameworks like React.js to create interactive web applications. I've also learned about web performance optimization, ensuring that the sites I create are not only visually appealing but also fast and efficient.
             </p>
         </div>
     )

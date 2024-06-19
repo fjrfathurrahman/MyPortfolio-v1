@@ -6,4 +6,9 @@ export const iconDesign : any = {
     iconFile: 'file',
     iconUser: 'user',
     iconRocket: 'rocket',
+    iconBomb: 'bomb',
+    iconGhost: 'ghost',
+    iconHashtag: 'hashtag',
+    iconShapes: 'shapes',
+    iconComputer: 'computer'
 } 
