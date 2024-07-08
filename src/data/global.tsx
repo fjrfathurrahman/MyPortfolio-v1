@@ -99,7 +99,7 @@ const dataProjects: any = {
             },
         },
         {
-            tittle: 'Portfolio V1',
+            tittle: 'Portfolio V99',
             img: imgProject2,
             description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas nam repellendus reprehenderit ea fugiat incidunt eligendi',
             url: {
@@ -129,57 +129,22 @@ import iconJs from '../assets/about/iconJavascript.png'
 import iconReact from '../assets/about/iconReact.png'
 import iconTypescript from '../assets/about/iconTypescript.png'
 import iconTailwind from '../assets/about/iconTailwind.png'
-import iconSass from '../assets/about/iconSass.png' 
 import iconFirebase from '../assets/about/iconFirebase.png'
 import iconGit from '../assets/about/iconGit.png'
-import iconNodejs from '../assets/about/iconNodejs.png'
 import iconFigma from '../assets/about/iconFigma.png'
+import iconNextjs from '../assets/about/iconNextjs.png'
 
 const iconsSkills : any = [
-    {
-        tittle: 'HTML',
-        icon: iconHtml
-    },
-    {
-        tittle: 'CSS',
-        icon: iconCss
-    },
-    {
-        tittle: 'Javascript',
-        icon: iconJs
-    },
-    {
-        tittle: 'React',
-        icon: iconReact
-    },
-    {
-        tittle: 'Typescript',
-        icon: iconTypescript
-    },
-    {
-        tittle: 'Tailwind',
-        icon: iconTailwind
-    },
-    {
-        tittle: 'Sass',
-        icon: iconSass
-    },
-    {
-        tittle: 'Firebase',
-        icon: iconFirebase
-    },
-    {
-        tittle: 'Git',
-        icon: iconGit
-    },
-    {
-        tittle: 'Nodejs',
-        icon: iconNodejs
-    },
-    {
-        tittle: 'Figma',
-        icon: iconFigma
-    }
+    { tittle: 'HTML', icon: iconHtml },
+    { tittle: 'CSS', icon: iconCss },
+    { tittle: 'Javascript', icon: iconJs },
+    { tittle: 'React', icon: iconReact },
+    { tittle: 'Typescript', icon: iconTypescript },
+    { tittle: 'Nextjs', icon: iconNextjs },
+    { tittle: 'Tailwind', icon: iconTailwind },
+    { tittle: 'Firebase', icon: iconFirebase },
+    { tittle: 'Git', icon: iconGit },
+    { tittle: 'Figma', icon: iconFigma }
 ]
 
 
