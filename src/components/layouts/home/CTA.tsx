@@ -11,7 +11,9 @@ export default function CTA() {
                 <img src={imgTittle} className="w-1/2 sm:w-2/5 md:w-1/3 lg:w-1/4 mb-6" />
                 <h1 className="w-full text-wrap text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-center tracking-tight sm:tracking-wide">Interested in <br /> Working Together?</h1>
                 <ButtonEl type="button" variant="primary" className="flex items-center gap-3">
-                    <Link to={"/contact"}>Get It Touch</Link>
+                    <a href="mailto:fajarfathurrahmanramdhani@gmail.com?subject=%20Email&body=Isi%20Email" target="_blank" rel="noopener noreferrer">
+                        Get It Touch
+                    </a>
                     <i className="fa-solid fa-angle-right animateX"></i>
                 </ButtonEl>
             </div>

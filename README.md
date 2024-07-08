@@ -1,30 +1,34 @@
-# React + TypeScript + Vite
+# My First Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Selamat datang di portfolio pertama saya! Proyek ini adalah hasil dari perjalanan saya dalam belajar React.js. Portfolio ini masih dalam tahap pengembangan dan masih banyak kekurangannya. Saya sangat mengharapkan saran dan masukan dari Anda.
 
-Currently, two official plugins are available:
+## Tentang Proyek
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Portfolio ini dibuat menggunakan React.js sebagai bagian dari proses belajar saya. Tujuan dari proyek ini adalah untuk menampilkan karya-karya saya dan untuk mempelajari lebih dalam tentang pengembangan web dengan React.
 
-## Expanding the ESLint configuration
+## Instalasi
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Clone repositori ini
+   ```sh
+   git clone https://github.com/fjrfathurrahman/MyPortfolio-v1.git
+2. Masuk ke direktori proyek
+   ```sh
+   cd first-portfolio
+3. Instalasi dependencies
+   ```sh
+   npm install 
+   npm run 
 
-- Configure the top-level `parserOptions` property like this:
+## Fitur
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- Halaman tentang yang menjelaskan tentang diri saya
+- Halaman proyek yang menampilkan daftar proyek yang telah saya kerjakan
+- Halaman kontak untuk menghubungi saya
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Kekurangan
+
+- Kode masih berantakan dan perlu banyak perbaikan
+- Desain UI/UX masih sederhana dan perlu ditingkatkan
+- Beberapa fitur yang diinginkan belum diimplementasikan
+
+Saya sangat mengharapkan saran dan masukan dari Anda untuk memperbaiki kekurangan-kekurangan ini.

@@ -16,10 +16,10 @@ import imgIconTailwindcss from "../assets/global/imgIconTailwind.png";
 const dataFooter: any = {
     Made: [imgIconReact, imgIconTailwindcss],
     Sosial: [
-        { path: '', tittle: "Email", icon: "fa-regular fa-envelope" },
-        { path: '', tittle: "Github", icon: "fa-brands fa-github" },
+        { path: 'mailto:fajarfathurrahmanramdhani@gmail.com?subject=%20Email&body=Isi%20Email', tittle: "Email", icon: "fa-regular fa-envelope" },
+        { path: 'https://github.com/fjrfathurrahman', tittle: "Github", icon: "fa-brands fa-github", target: "_blank" },
         { path: '', tittle: "LinkedIn", icon: "fa-brands fa-linkedin" },
-        { path: '', tittle: "Instagram", icon: "fa-brands fa-instagram" },
+        { path: 'https://www.instagram.com/fjrfthrrhmnz/', tittle: "Instagram", icon: "fa-brands fa-instagram", target: "_blank"  },
     ],
     DesignSosialMedia: [
         { icon: 'facebook' },
@@ -94,8 +94,8 @@ const dataProjects: any = {
             img: imgProject1,
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus a nemo natus?',
             url: {
-                urlGithub: '',
-                urlWebsite: ''
+                urlGithub: '/*',
+                urlWebsite: '/*'
             },
         },
         {
@@ -103,8 +103,8 @@ const dataProjects: any = {
             img: imgProject2,
             description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas nam repellendus reprehenderit ea fugiat incidunt eligendi',
             url: {
-                urlGithub: '',
-                urlWebsite: ''
+                urlGithub: '/*',
+                urlWebsite: '/*'
             },
         },
         {
@@ -112,8 +112,8 @@ const dataProjects: any = {
             img: imgProject3,
             description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam reiciendis eveniet aperiam exercitationem perspiciatis alias doloribus.',
             url: {
-                urlGithub: '',
-                urlWebsite: ''
+                urlGithub: '/*',
+                urlWebsite: '/*'
             },
         },
     ]

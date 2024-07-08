@@ -43,7 +43,7 @@ const Component = ({ tittle, className = "w-1/2", array = [] }: TypePropsCompone
             {array.map((item: any, index) => (
                 <div key={index} className="flex flex-row items-center gap-2">
                     {item.icon && <i className={`${item.icon} text-primary text-base sm:text-lg`}></i>}
-                    <Link to={item.path} className="text-paragraph hover:text-white duration500 text-sm font-semibold sm:text-base">{item.tittle}</Link>
+                    <Link to={item.path} target={item.target} className="text-paragraph hover:text-white duration500 text-sm font-semibold sm:text-base">{item.tittle}</Link>
                 </div>
             ))}
         </div>
